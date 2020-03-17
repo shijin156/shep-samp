@@ -1,0 +1,669 @@
+/*FONTS_SETTINGS*/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap');/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap'); /*font-family: 'Open Sans', sans-serif; */
+/*BASIC_SETTINGS*/
+body {
+  padding:0;
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height:1.3;
+  color:#353535;
+  background-color:#ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body > div {
+  font-size: 18px;
+}
+a:hover,a {
+  text-decoration: none !important;
+  color: #353535;;
+}
+body .fixed-top {
+  z-index: 99;
+}
+/*HEADING_SECTION*/
+h1 , h2 , h3 , h4 , h5 , h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight :600;
+}
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 18x;
+}
+h4 {
+  font-size: 22px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 16px;
+}
+/*Header Section*/
+header .navbar-dark .navbar-nav .nav-link {
+  color: #353535;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+.navbar-nav li:before {
+  color: #DEC03E;
+}
+.navbar-nav li:before {
+  content: '\f111';
+  font-family: FontAwesome;
+  position: absolute;
+  margin-left: 0;
+  margin-top: 0;
+  bottom: -5px;
+  font-size: 12px;
+  left: 15.3px;
+  top: 19px;
+  color: #353535;
+}
+li.nav-item{
+  position: relative;
+  padding: 0 30px;
+}
+.navbar-nav li.active:before{
+  color: #DEC03E;
+}
+/* li.nav-item:last-child{
+padding: 0px;
+} */
+.nav-link {
+  color: #353535;
+  font-size: 26px;
+  font-weight: 700;
+  padding: .5rem 2px !important;
+}
+/*Footer Section*/
+.gray-background {
+  background-color: #f4f4f5 !important;
+}
+.info-box h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #353535;
+  font-size: 18px;
+}
+.footer-copyright{
+  color: rgba(45, 45, 45, 0.60);
+  font-size: 14px;
+}
+.talent-page h1 {
+  border-bottom: 2px solid #353535;
+  display: inline-block;
+}
+.parameter-form li{
+  list-style-type: none;
+}
+.parameter-form .search_form_cat li {
+  margin-bottom: 15px;
+  width: 32.33%;
+  padding: 0px 15px;
+  display: inline-block;
+}
+.parameter-form input, .parameter-form select, .parameter-form textarea {
+  background-color: #ffffff;
+  color: #353535;
+  border: 1px solid #000!important;
+}
+.parameter-form select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(https://www.sheppard.agency/wp-content/uploads/2019/12/dropdown-arrow.png);
+  background-position: 95% 50%;
+  background-repeat: no-repeat !important;
+  background-size: 16px;
+}
+.parameter-form ul {
+  padding-left: 0;
+}
+.form-group input, .form-group select, .form-group textarea {
+  background-color: #292c28!important;
+  border: 0;
+  border-radius: 0;
+  color: #ffffff!important;
+  font-size: 18px ;
+  font-weight: 400;
+  padding: 6px 12px ;
+}
+.form-group label {
+  font-weight: 700;
+  padding-bottom: 6px;
+  font-size: 16px;
+}
+button.btn.btn-primary {
+  color: #353535;
+  background-color: #dec03e!important;
+  border: 0;
+}
+i {
+  color: #dec03e;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffffff!important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ffffff!important;
+  opacity: 1;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ffffff!important;
+  opacity: 1;
+}
+input[type=checkbox], input[type=radio] {
+  font-size: 14px;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.form-group{
+  font-size: 14px;
+  line-height: 25px;
+}
+.voice_talent_search_display h2 {
+  font-size: 18px;
+  font-family: Open Sans;
+  margin-bottom: 0px;
+}
+audio {
+  width: 100%;
+}
+.audioplayer-mini {
+  width: 2.5em;
+  margin: 0 auto;
+}
+.audioplayer>div {
+  position: absolute;
+}
+.audioplayer-playpause {
+  width: 22px;
+  height: 29px;
+  text-align: left;
+  text-indent: -9999px;
+  cursor: pointer;
+  z-index: 2;
+  top: 5px;
+  left: 4px;
+  ;
+}
+.audioplayer-volume,
+.audioplayer-time {
+  display: none;
+}
+.audioplayer-playpause a:before,
+.audioplayer-playpause a:after,
+.row .audioplayer-time.audioplayer-time-duration {
+  display: none;
+}
+.row .audioplayer-volume {
+  display: none;
+  border-left: 0px;
+}
+.audioplayer-mini .audioplayer-playpause {
+  width: 100%;
+}
+.audioplayer-playpause:hover,
+.audioplayer-playpause:focus {
+  background-color: transparent;
+}
+.audioplayer-playpause a {
+  display: block;
+}
+.audioplayer-download {
+  display: inline-block;
+  right: 0;
+  top: 6px;
+  display:none;
+}
+.fa-cloud-download-alt:before {
+  color: #6f41b2;
+}
+.audioplayer:not(.audioplayer-playing) .audioplayer-playpause a,
+.audioplayer-playing .audioplayer-playpause a {
+  width: 26px;
+  height: 21px;
+  border: 0;
+  border-right: none;
+  border-left-color: #fff;
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 0;
+  margin: 0 0 0 0px;
+  background-image: url(../images/Sheppard-Agent-Sprite-button.svg) !important;
+  background-repeat: no-repeat;
+  background-size: 87px;
+}
+.audioplayer-playing .audioplayer-playpause a {
+  background-image: url(../images/Sheppard-Agent-Sprite-button.svg)!important;
+  top: 5px;
+  background-position: -37px 0;
+
+}
+.audioplayer-playing .audioplayer-playpause a:before,
+.audioplayer-playing .audioplayer-playpause a:after {
+  width: 40%;
+  height: 100%;
+  background-color: #fff;
+  content: '';
+  position: absolute;
+  top: 0;
+}
+.audioplayer-playing .audioplayer-playpause a:before {
+  left: 0;
+}
+.audioplayer-playing .audioplayer-playpause a:after {
+  right: 0;
+}
+.row .audioplayer-time {}
+  .audioplayer-time-current {
+    border-left: 1px solid #111;
+    left: 2.5em;
+    display: none;
+  }
+  .audioplayer-time-duration {
+    right: 2.5em;
+    display: none;
+  }
+  .audioplayer-novolume .audioplayer-time-duration {
+    border-right: 0;
+    right: 0;
+  }
+  .audioplayer-bar {
+    height: 19px;
+    background: #2d2d2d;
+    cursor: pointer;
+    z-index: 1;
+    top: 50%;
+    right: 37px;
+    width: 91%;
+    left: 31px;
+    margin-top: -0.438em;
+  }
+  .audioplayer-novolume .audioplayer-bar {
+    right: 4.375em;
+  }
+  .audioplayer-bar div {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .audioplayer-bar-loaded {
+    z-index: 1;
+  }
+  .audioplayer-bar-played {
+    background: #7a797a;
+    z-index: 2;
+  }
+  .audioplayer-download a {
+    color: #fff !important;
+    font-size: 20px;
+    position: relative;
+    left: 2px;
+  }
+  .audioplayer {
+    height: 2.5em;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: block;
+    right: 0;
+    left: 0;
+    margin:0 auto;
+  }
+  .audioplayer-volume {
+    width: 2.5em;
+    height: 100%;
+    border-left: 1px solid #111;
+    text-align: left;
+    text-indent: -9999px;
+    cursor: pointer;
+    z-index: 2;
+    top: 0;
+    right: 0;
+  }
+  .audioplayer-volume:hover,
+  .audioplayer-volume:focus {
+    background-color: #222;
+  }
+  .audioplayer-volume-button {
+    width: 100%;
+    height: 100%;
+  }
+  .audioplayer-volume-button a {
+    width: 0.313em;
+    height: 0.375em;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    z-index: 1;
+    top: 40%;
+    left: 35%;
+  }
+  .audioplayer-volume-button a:before,
+  .audioplayer-volume-button a:after {
+    content: '';
+    position: absolute;
+  }
+  .audioplayer-volume-button a:before {
+    width: 0;
+    height: 0;
+    border: 0.5em solid transparent;
+    border-left: none;
+    border-right-color: #fff;
+    z-index: 2;
+    top: 50%;
+    right: -0.25em;
+    margin-top: -0.5em;
+  }
+  .audioplayer:not(.audioplayer-mute) .audioplayer-volume-button a:after {
+    width: 0.313em;
+    height: 0.313em;
+    border: 0.25em double #fff;
+    border-width: 0.25em 0.25em 0 0;
+    left: 0.563em;
+    top: -0.063em;
+    -webkit-border-radius: 0 0.938em 0 0;
+    -moz-border-radius: 0 0.938em 0 0;
+    border-radius: 0 0.938em 0 0;
+    -webkit-transform: rotate( 45deg);
+    -moz-transform: rotate( 45deg);
+    -ms-transform: rotate( 45deg);
+    -o-transform: rotate( 45deg);
+    transform: rotate( 45deg);
+  }
+  .audioplayer-volume-adjust {
+    width: 100%;
+    height: 6.25em;
+    cursor: default;
+    position: absolute;
+    left: 0;
+    top: -9999px;
+    background: #222;
+  }
+  .audioplayer-volume:not(:hover) .audioplayer-volume-adjust {
+    opacity: 0;
+  }
+  .audioplayer-volume:hover .audioplayer-volume-adjust {
+    top: auto;
+    bottom: 100%;
+  }
+  .audioplayer-volume-adjust>div {
+    width: 40%;
+    height: 80%;
+    background-color: #555;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    margin: 30% auto 0;
+  }
+  .audioplayer-volume-adjust div div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #007fd1;
+  }
+  .audioplayer-novolume .audioplayer-volume {
+    display: none;
+  }
+  .audioplayer i.fa {
+    font-size: 28px;
+  }
+  .fa-bars:before {
+    font-family: fontawesome;
+    font-style: normal;
+  }
+  .audio-title{
+    position: absolute;
+    color: #fff;
+    z-index: 9999;
+    top: 11px;
+    left: 50px;
+    font-size: 15px;
+  }
+  .audio-section{
+    position: relative;
+  }
+  .talent-page li{
+    padding-bottom:15px;
+  }
+  .talent-page h2{
+    padding-bottom:8px;
+  }
+  .audioplayer-bar-played {
+    background: #dec03e!important;
+  }
+  .voice_talent_search_display .row:nth-child(odd) {
+    background-color: #f4f4f5!important;
+  }
+  .voice_talent_search_display .audioplayer {
+    height: auto;
+  }
+  .voice_talent_search_display .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a, .voice_talent_search_display .audioplayer-playing .audioplayer-playpause a{
+    top: -4px;
+  }
+  .voice_talent_search_display .audioplayer-playing .audioplayer-playpause a {
+    top: -4px;
+  }
+  .voice_talent_search_display .row{
+    align-items: center;
+  }
+  .voice_talent_search_display .audioplayer-bar{
+    top: 47%;
+  }
+  body .mejs__time, body .mejs__volume-button, body .mejs__horizontal-volume-slider, body .mejs__time-handle, body .mejs__time-hovered, body .mejs__time-loaded, body .mejs__time-buffering{
+    display:none !important;
+  }
+  body .mejs__play button{
+    background-image: url(../images/Sheppard-Agent-Sprite-button.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 87px;
+  }
+  body .mejs__pause button{
+    background-image: url(../images/Sheppard-Agent-Sprite-button.svg)!important;
+    top: 5px;
+    background-size: 97px;
+    background-position: -42px -6px;
+  }
+  body .mejs__time-total {
+    height: 100%;
+    top: 0;
+  }
+  body .mejs__container, body .mejs__time-float {
+    background: transparent;
+  }
+  body span.mejs__time-current, body span.mejs__time-loaded {
+    height: 100%;
+  }
+  body .mejs__controls, body .mejs__time-handle{
+    background-image: none !important;
+  }
+  body .mejs__time-total {
+    background: #000;
+    height: 20px;
+    margin: 0;
+    top: 11px;
+    width: 89%;
+  }
+  body  .voice_talent_search_display  .mejs__time-total {
+    top: 17px;
+  }
+  body .mejs__time-current {
+    background-color: #DEC03E;
+  }
+  body .mejs__time-rail {
+    margin: 0 0px;
+  }
+  body  .mejs__button>button:focus {
+    outline: none !important;
+  }
+  :focus, button:focus{
+    outline:none;
+  }
+  .navbar-toggler-icon .fa-bars:after{
+    content: "Menu";
+  }
+  .navbar-toggler-icon i{
+    position: absolute;
+    left: 0;
+    top: 11px;
+    font-size: 17px;
+    font-weight: 500;
+    right: 0;
+    color: #353535;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .fa-bars:before {
+    left: -7px;
+    position: relative;
+  }
+  .mejs__container{
+    width: 100% !important;
+  }
+  body .mejs__container{
+    width: 100% !important;
+
+  }
+  .parameter-form input[type=radio] {
+    margin-right: 7px;
+  }
+  body .voice_talent_search_display .mejs__container{
+    height: 28px !important;
+  }
+  .voice_talent_search_display .mejs__button button{
+    top: 4px;
+    margin-top: 0;
+  }
+  body .voice_talent_search_display .mejs__pause button{
+    background-position: -42px -1px;
+  }
+  body .mejs__time-total {
+    width: 100%;
+  }
+  body  .voice_talent_search_display .mejs__button{
+    height: 26px;
+  }
+  ul#talent-name{
+    border: 1px solid #000;
+  }
+  .talent_names{
+    height: 202px;
+    overflow-y: scroll;
+    z-index: 99999;
+    margin-top: 7px;
+    border: 1px solid;
+  }
+  .talent_names li a:hover{
+    background-color:#A8A9A8;
+    color:#fff;
+  }
+  body .voice_talent_search_display .mejs__controls {
+    height: 28px;
+  }
+  body .voice_talent_search_display .mejs__time-total {
+    top: 5px;
+  }
+  .talent_names {
+    display: none;
+  }
+  .audioscroll {
+    background: black;
+    width: 298px;
+    height: 18px;
+    display: inline-block;
+    border-radius: 2px;
+}
+a.audioscrolllink span{
+    background-image: url(../images/Sheppard-Agent-Sprite-button.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 87px;
+    background-position: 0px -3px;
+    display: inline-block;
+    width: 27px;
+    height: 18px;
+}
+a.audioscrolllink {
+    margin-top: 5px;
+    display: block;
+    cursor: pointer;
+    margin-left: 15px;
+}
+#fileuploads_wrapper {
+  padding-top: 14px;
+}
+#fileuploads_wrapper .dataTables_info {
+  padding: 10px;
+}
+#fileuploads td {
+  vertical-align: middle;
+}
+  @media only screen and (max-width: 1200px){
+    li.nav-item {
+      padding: 0 24px;
+    }
+    .nav-link {
+      font-size: 24px;
+    }
+  }
+  @media only screen and (max-width: 991px){
+    .nav-link {
+      display: inline-block;
+    }
+    .navbar-nav li:before{
+      display: none;
+    }
+    .navbar-nav li a:before{
+      content: '\f111';
+      font-family: FontAwesome;
+      position: relative;
+      margin-left: 0;
+      margin-top: 0;
+      bottom: 0;
+      font-size: 12px;
+      left: -8px;
+      top: -4px;
+      color: #353535;
+    }
+    .navbar-nav li.active a:before{
+      color: #DEC03E;
+    }
+    .container {
+      max-width: 100%;
+    }
+    .nav-link {
+      padding: 1px 2px !important;
+    }
+  }
+  @media only screen and (max-width: 767px){
+    .header-img img.img-responsive{
+      width: 100%;
+    }
+    .parameter-form select {
+      margin-bottom: 1em;
+    }
+    .footer-copyright {
+      text-align: center;
+    }
+    section.voice_talent_search_display {
+      text-align: center;
+    }
+  }
